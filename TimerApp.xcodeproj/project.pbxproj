@@ -14,6 +14,7 @@
 		E637BB942841A4CF00E0083C /* TimerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E637BB932841A4CF00E0083C /* TimerAppTests.swift */; };
 		E637BB9E2841A4CF00E0083C /* TimerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E637BB9D2841A4CF00E0083C /* TimerAppUITests.swift */; };
 		E637BBA02841A4CF00E0083C /* TimerAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E637BB9F2841A4CF00E0083C /* TimerAppUITestsLaunchTests.swift */; };
+		E6EE19AB2841A8680069E182 /* MyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EE19AA2841A8680069E182 /* MyTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		E637BB992841A4CF00E0083C /* TimerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E637BB9D2841A4CF00E0083C /* TimerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerAppUITests.swift; sourceTree = "<group>"; };
 		E637BB9F2841A4CF00E0083C /* TimerAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E6EE19AA2841A8680069E182 /* MyTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				E637BB842841A4CE00E0083C /* ContentView.swift */,
 				E637BB862841A4CF00E0083C /* Assets.xcassets */,
 				E637BB882841A4CF00E0083C /* Preview Content */,
+				E6EE19AA2841A8680069E182 /* MyTimer.swift */,
 			);
 			path = TimerApp;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E637BB852841A4CE00E0083C /* ContentView.swift in Sources */,
+				E6EE19AB2841A8680069E182 /* MyTimer.swift in Sources */,
 				E637BB832841A4CE00E0083C /* TimerAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
